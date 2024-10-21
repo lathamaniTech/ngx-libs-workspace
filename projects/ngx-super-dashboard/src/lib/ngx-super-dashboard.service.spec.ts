@@ -3,14 +3,10 @@ import { TestBed } from '@angular/core/testing';
 import { NgxSuperDashboardService } from './ngx-super-dashboard.service';
 
 describe('NgxSuperDashboardService', () => {
-  let service: NgxSuperDashboardService;
-
-  beforeEach(() => {
-    TestBed.configureTestingModule({});
-    service = TestBed.inject(NgxSuperDashboardService);
-  });
+  beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
+    const service: NgxSuperDashboardService = TestBed.get(NgxSuperDashboardService);
     expect(service).toBeTruthy();
   });
 });

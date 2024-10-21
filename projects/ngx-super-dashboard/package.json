@@ -1,31 +1,12 @@
 {
   "name": "ngx-super-dashboard",
-  "version": "0.0.6",
-  "keywords": [
-    "Angular",
-    "Angular 16",
-    "Charts",
-    "Google",
-    "Chart",
-    "Data Grid",
-    "Cards",
-    "Dynamic Cards",
-    "Dynamic Grid",
-    "Dynamic Form Fields",
-    "Dynamic Search",
-    "Dynamic Filters"
-  ],
-  "description": "A Dashboard UI component with dynamic filters , dynamic cards , datagrids and google charts ",
-  "repository": {
-    "url": "https://github.com/KarthickTechie/ngx-libs-workspace.git"
-  },
+  "version": "0.0.1",
   "peerDependencies": {
-    "@angular/common": "^16.1.0",
-    "@angular/core": "^16.1.0",
-    "angular-google-charts": "^16.0.1"
+    "@angular/common": "*8.2.14",
+    "@angular/core": "*8.2.14",
+    "angular-google-charts": "^1.1.6"
   },
   "dependencies": {
-    "tslib": "^2.3.0"
-  },
-  "sideEffects": false
+    "tslib": "^2.0.0"
+  }
 }

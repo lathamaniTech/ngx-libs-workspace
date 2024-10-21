@@ -1,4 +1,4 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { NgxSuperDashboardComponent } from './ngx-super-dashboard.component';
 
@@ -6,10 +6,14 @@ describe('NgxSuperDashboardComponent', () => {
   let component: NgxSuperDashboardComponent;
   let fixture: ComponentFixture<NgxSuperDashboardComponent>;
 
-  beforeEach(() => {
+  beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [NgxSuperDashboardComponent]
-    });
+      declarations: [ NgxSuperDashboardComponent ]
+    })
+    .compileComponents();
+  }));
+
+  beforeEach(() => {
     fixture = TestBed.createComponent(NgxSuperDashboardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
